@@ -4,7 +4,7 @@
   (:use #:common-lisp #:sb-grovel #:sb-alien)
   (:export
    ;;;; Structs
-   #:epoll_event #:epoll_data #:epoll_data_t
+   #:epoll_event #:epoll_data
    #:fd #:events #:data ; Slots
    ;;;; Create
    #:epoll-create #:epoll-create1
